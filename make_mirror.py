@@ -14,5 +14,6 @@ def main():
     cv2.moveWindow("image", 0,0)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
-
+    os.remove(filename)
+    
 main()
